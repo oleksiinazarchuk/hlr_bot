@@ -4,8 +4,8 @@ from aiogram.filters import Command
 import asyncio
 
 # Настройки
-API_TOKEN = "7916864683:AAGhZRx3qKywLwNwBQrAoiwdSgb0hWxpIJk"  # Токен Telegram-бота
-PHP_SERVER_URL = "http://localhost/hlr.php"  # URL вашего PHP-скрипта
+API_TOKEN = "tg.api" 
+PHP_SERVER_URL = "url"  
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
