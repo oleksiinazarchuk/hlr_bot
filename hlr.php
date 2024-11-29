@@ -11,8 +11,8 @@ include('HLRLookupClient.class.php');
 
 // Настройка API-клиента
 $client = new HLRLookupClient(
-    '374980847308',                // API-ключ
-    'rek%-j349-Zu%Z-Cruv-6uKA-JDp!', // Секретный ключ
+    'api.key',               
+    'secret.key', 
     __DIR__ . '/hlr_lookup.log'      // Лог-файл
 );
 
